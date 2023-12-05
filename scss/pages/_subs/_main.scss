@@ -1,0 +1,227 @@
+.subs-main{
+    width: 1300px;
+    // border: 1px solid;
+    height: 2700px;
+
+    .subs-section_process{
+        width: 1290px;
+        height: 600px;
+        display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 20px;
+        border-radius: 10px;
+        background-color: $DarkGreyBlue;
+        .subs__line{
+            width: 70%;
+            height: 10%;
+            
+            margin: 0 ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            
+            .Oval{
+             position: absolute;
+             top: 27%;
+             left: 6%;
+ 
+            }
+            .Oval2{
+             position: absolute;
+             top: 28%;
+             left: 48%;
+ 
+            }
+            .oval3{
+             position: absolute;
+             top: 27%;
+             left: 90%;
+ 
+            }
+ 
+         }
+         .main__subs_section_process-ul{
+             display: inline-flex;
+             width: 100%;
+             height: 45%;
+             
+             
+             .main__subs_section_process-ul-li{
+               width:295px;
+               height: 100%;
+               
+               display: flex;
+               align-items: flex-start; 
+               flex-direction: column;
+               gap: 50px;
+               h1{
+                 margin-left: 0px;
+                 color: #FDD6BA;
+                 font-family: $boldfrance ;
+                 font-size: 72px;
+                 font-style: normal;
+                 font-weight: 1300;
+                 line-height: 72px; /* 100% */
+                 width: 340px;
+                 
+               }
+               h3{
+                 width: 255px;
+                 color: #ffffff;
+ font-family: $boldfrance;
+ font-size: 32px;
+ font-style: normal;
+ font-weight: 900;
+ line-height: 36px; /* 112.5% */
+ margin-left: 0px;
+               }
+               p{
+                 width: 305px;
+                 color: #ffffff;
+   font-family: $bralow;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */ 
+               }
+              
+             }
+ 
+         }
+
+
+
+    }
+
+    .subs-section_cards{
+        width: 1100px;
+        // border: 1px solid;
+        height: 80%;
+        display: flex;
+        gap: 40px;
+
+        &-left{
+            width: 30%;
+            
+            height: 15%;
+            margin-top: 12%;
+            display: flex;
+            flex-direction: column;
+            // gap: 30px;
+            // align-items: flex-start;
+
+            p{
+                color: #333D4B;
+font-family: $france;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; /* 133.333% */
+text-align: start;
+width: 300px;
+            }
+            p:hover{
+                color: $grey;
+                cursor: pointer;
+            }
+        }
+        &-right{
+            width: 70%;
+            
+            height: 95%;
+            margin-top: 12%;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            &-cardcontainer{
+                width: 100%;
+                height: 17%;
+                
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                &-top{
+                    width: 100%;
+                    height: 18%;
+                   
+                    display: flex;
+                    gap: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    h2{
+                        color: #83888F;
+font-family: $france;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px; /* 120% */
+
+                    }
+
+                }
+                &-bottom{
+                    width: 100%;
+                    height: 70%;
+                   
+                    &-ul{
+                        width: 100%;
+                        height: 100%;
+                        
+                        display: flex;
+                        gap: 10px;
+                        &-li{
+                            border-radius: 8px;
+                            background: #F4F1EB;
+                            width: 228px;
+                            height: 250px;
+                            flex-shrink: 0; 
+                            display: flex; 
+                            
+                            flex-direction: column;
+                            // justify-content: center;
+                            align-items: flex-start;
+                            gap: 24px;
+                            h3{
+                                color: #333D4B;
+                                font-family: $france;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 900;
+                                line-height: 32px; /* 133.333% */
+                                width: 170px;
+                                margin-top: 40px;
+                                
+                            }
+                            p{
+                                color: #333D4B;
+                            font-family: $bralow;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 26px; /* 162.5% */
+                            width: 172px;
+                            }
+                            // :hover{
+                            //     color: #FDD6BA;
+                            // }
+                        }
+                        .subs-section_cards-right-cardcontainer-bottom-ul-li:hover{
+                            background-color: #FDD6BA;
+                            cursor: pointer;
+                        }
+                        
+                    }
+                    
+
+                }
+
+            }
+        }
+
+
+    }
+}

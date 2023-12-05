@@ -1,0 +1,60 @@
+.footer{
+    width: 1200px;
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background: #2C343E;
+    &-logo{
+        width: 40%;
+        height: 70%;
+        
+        display: flex;
+        align-items: center;
+        img{
+            width: 236px;
+            height: 26px;
+            flex-shrink: 0;
+            margin-left: 20px;
+        }
+    }
+    &-ul{
+        width: 30%;
+        margin-left: -120px;
+        height: 70%;
+        
+            display: inline-flex;
+            padding-right: 0px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            color: #83888F;
+                font-family: $bralow;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 15px; /* 125% */
+                letter-spacing: 0.923px;
+                text-transform: uppercase;
+                a{
+                    color: #83888F;   
+                }
+                a:hover{
+                    color: #ffff;
+                }
+        
+    }
+    &-icons{
+        width: 20%;
+        height: 70%;
+        
+        display: inline-flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        
+    }
+    
+}
