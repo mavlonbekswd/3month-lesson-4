@@ -124,6 +124,103 @@
   width: 50%;
   height: 100%;
 }
+@media screen and (max-width: 400px) {
+  .home_wrapper .header {
+    width: 370px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #FEFCF7;
+  }
+  .home_wrapper .header__nav {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    gap: 190px;
+  }
+  .home_wrapper .header__nav_left {
+    height: 100%;
+    width: 20%;
+  }
+  .home_wrapper .header__nav_left img {
+    width: 163px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  .home_wrapper .header__nav_right {
+    height: 0%;
+    width: 10%;
+    display: none;
+  }
+  .home_wrapper .header__nav .menu {
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    margin-top: 23px;
+  }
+  .home_wrapper .header__hero {
+    width: 357px;
+    height: 500px;
+    background: url(/pages/home/img/hero-bg-mob@2x.png), lightgray 0px 0px/100% 100% no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+  }
+  .home_wrapper .header__hero_left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .home_wrapper .header__hero_left h1 {
+    color: #FEFCF7;
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px; /* 100% */
+    width: 279px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .home_wrapper .header__hero_left p {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    width: 279px;
+    margin-left: 40px;
+  }
+  .home_wrapper .header__hero_left button {
+    border-radius: 6px;
+    margin-left: 80px;
+    background: #0E8784;
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */
+    transition: 0.3s;
+    border: none;
+  }
+  .home_wrapper .header__hero_left button:hover {
+    color: #0E8784;
+    background: #FEFCF7;
+  }
+}
 
 .main {
   width: 1300px;
